@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        **** HTML5 Tic-Tac-Toe ****
+
+            Author:			Troy Davis
+            Created:		Apr 04, 2017
+            Last revision:	Apr 04, 2017 (rev00)
+
+        **** HTML5 Tic-Tac-Toe ****
+    -->
+    <meta charset="utf-8">
+    <title>JavaScript : Tic-Tac-Toe</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="gameMessage">game messages come here</div>
+        <div id="gameGrid">
+            <div id="gameGridCell_0" class="gameGridCell">X</div><div id="gameGridCell_1" class="gameGridCell">X</div><div id="gameGridCell_2" class="gameGridCell">X</div>
+            <div id="gameGridCell_3" class="gameGridCell">O</div><div id="gameGridCell_4" class="gameGridCell">O</div><div id="gameGridCell_5" class="gameGridCell">O</div>
+            <div id="gameGridCell_6" class="gameGridCell">X</div><div id="gameGridCell_7" class="gameGridCell">X</div><div id="gameGridCell_8" class="gameGridCell">X</div>
+        </div>
+        <div id="gameControls">
+            <button type="button" id="gameButton" onclick="gameButtonClick()">Play Again!</button>
+        </div>        
+    </div>
+
+    <!-- load Javascript modules -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/jsGame.js"></script>
+</body>
+</html>
