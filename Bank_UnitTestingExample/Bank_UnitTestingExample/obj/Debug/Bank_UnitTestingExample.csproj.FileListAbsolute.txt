@@ -1,0 +1,6 @@
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\Bank_UnitTestingExample\bin\Debug\Bank_UnitTestingExample.exe.config
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\Bank_UnitTestingExample\bin\Debug\Bank_UnitTestingExample.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\Bank_UnitTestingExample\bin\Debug\Bank_UnitTestingExample.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\Bank_UnitTestingExample\obj\Debug\Bank_UnitTestingExample.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\Bank_UnitTestingExample\obj\Debug\Bank_UnitTestingExample.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\Bank_UnitTestingExample\obj\Debug\Bank_UnitTestingExample.csprojResolveAssemblyReference.cache

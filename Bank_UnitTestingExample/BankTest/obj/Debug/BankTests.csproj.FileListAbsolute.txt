@@ -1,0 +1,8 @@
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\bin\Debug\BankTest.dll
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\bin\Debug\BankTest.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\bin\Debug\Bank_UnitTestingExample.exe
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\bin\Debug\Bank_UnitTestingExample.pdb
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\obj\Debug\BankTests.csprojResolveAssemblyReference.cache
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\obj\Debug\BankTest.dll
+K:\_boostNode\GitHub\IN2017\IN2017_Module10\Bank_UnitTestingExample\BankTest\obj\Debug\BankTest.pdb
