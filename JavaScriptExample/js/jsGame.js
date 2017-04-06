@@ -6,6 +6,14 @@
 //
 // **** Tic-Tac-Toe Script ****
 
+// Very, very minimal testing in:
+//
+//      Google Chrome: 57.0.2987.133
+//      Mozilla Firefox: 52.0.2 (32-bit)
+//      Apple Safari: 5.1.7 (7534.57.2)
+//      Microsoft Internet Explorer: 11.0.9600.18537 (must allow web content)
+//
+
 // DOM global variables
 var NAMESPACE = NAMESPACE || {};
 
@@ -87,7 +95,7 @@ NAMESPACE.Game = (function() {
                     if (_gameGridCellValue[cell] === '') {
                         jQuery(gridCellSelector).text('X');
                         _gameGridCellValue[cell] = 'X';
-                        _gamePlayer = 'O'
+                        _gamePlayer = 'O';
                         _setMessage("O's turn, pick an empty cell");
                     } else {
                         _setMessage("Already filled; choose another");
@@ -96,7 +104,7 @@ NAMESPACE.Game = (function() {
                     if (_gameGridCellValue[cell] === '') {
                         jQuery(gridCellSelector).text('O');
                         _gameGridCellValue[cell] = 'O';
-                        _gamePlayer = 'X'
+                        _gamePlayer = 'X';
                         _setMessage("X's turn, pick an empty cell");
                     } else {
                         _setMessage("Already filled; choose another");
@@ -142,7 +150,7 @@ NAMESPACE.Game = (function() {
                     if (_gameGridCellValue[gameGridCell] === '') { emptyCell = true; }
                     gameGridCell += 1;
                 }
-                while (emptyCell === false && gameGridCell < 9)
+                while (emptyCell === false && gameGridCell < 9);
                 if (emptyCell === false) { _gameWinner = 'DRAW'; console.log('draw'); }
             }
             // update results
@@ -172,7 +180,7 @@ NAMESPACE.Game = (function() {
             // helpful explanation of parameter passing functionality:
             //      see: http://stackoverflow.com/questions/3273350/jquerys-click-pass-parameters-to-user-function
             //      see: http://stackoverflow.com/questions/3473639/best-way-to-convert-string-to-array-of-object-in-javascript
-            
+
             var stringJSON, eventData;
             var gridCellSelector;
             for (var gameGridCell = 0 ; gameGridCell < 9 ; gameGridCell++) {
@@ -182,8 +190,8 @@ NAMESPACE.Game = (function() {
                 jQuery(gridCellSelector).mouseover(eventData, _mouseoverGameGridCell);
                 jQuery(gridCellSelector).mouseout(eventData, _mouseoutGameGridCell);
                 jQuery(gridCellSelector).click(eventData, _clickGameGridCell);
-            }   
-        }
+            }
+        };
 
         // Public Property Accessors
         Object.defineProperty(this, "publicAccessor",{
